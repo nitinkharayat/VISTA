@@ -7,7 +7,7 @@
 
 ---
 
-# 1. College-Level Prototype Cost
+# 1. Our Prototype Cost
 
 The VISTAX website shows the prototype architecture using **ESP8266, Arduino, camera, sonar, LiDAR, thermal, GPS/DGPS, IMU and communication hardware**. The physical prototype shown on the website is intended as a college/SIH demonstration system rather than a production mining installation.
 
@@ -48,7 +48,7 @@ The **4 m ultrasonic/sonar sensor is suitable for demonstrating short-range dist
 
 Its role in the VISTAX prototype is therefore:
 
-> **College prototype / proof-of-concept distance sensing**
+> **Our prototype / proof-of-concept distance sensing**
 
 and not:
 
