@@ -1,303 +1,733 @@
-
 # VISTAX for NMDC Bailadila — Financial Impact & Fact Corrections
 
 ## 1. Purpose
 
-This note corrects the financial-impact numbers shown in the VISTAX card and builds a Bailadila-specific planning case using publicly disclosed NMDC/Government data.
+This report defines a transparent, evidence-based financial model for VISTAX at NMDC Bailadila.
 
-**Important:** the public sources provide actual production, sales, company-wide cost pools and safety metrics, but they do **not** disclose audited Bailadila-only rupee savings attributable to VISTAX. Therefore, any VISTAX savings number below is a **planning model**, not an observed historical result.
+The purpose is to:
 
----
+1. Establish the publicly disclosed financial and operational baseline.
+2. Separate actual NMDC disclosures from calculated values.
+3. Identify where assumptions are required.
+4. Model potential cost and revenue effects without presenting them as guaranteed results.
+5. Define the data required for a site-level ROI calculation after pilot validation.
 
-## 2. What the VISTA currently says
-
-The VISTA is an integrated offline mine-vehicle safety system with a vehicle-side driver-assistance layer (Vista X), centralized monitoring (Vista A), sensor fusion, collision-risk detection, alerts, fleet logs and analytics. It also says that its future validation should measure detection reliability, false alerts, alert latency, cycle time, downtime and operator feedback.
-
-Source: VISTAX project website, https://bug-busters-hazel.vercel.app/
-
-### Important correction
-
-NMDC has **already commissioned a Fleet Management System (FMS) at both BIOM Bacheli and BIOM Kirandul**. The FY25 annual report says the FMS includes high/low-precision guidance, proximity awareness, fuel management, tyre pressure/temperature monitoring, fatigue monitoring, crusher utility management and health monitoring.
-
-The Ministry of Steel's FY2024-25 annual report also states that NMDC's FMS at Bailadila improves fleet safety, route planning and operating-cost control.
-
-Therefore, the VISTA plan should be presented as an **augmentation / low-visibility safety layer around the existing FMS**, not as the first fleet-monitoring system.
+> **Important:** Public sources disclose NMDC production, sales, financial cost pools and safety metrics, but they do not disclose audited Bailadila-only financial savings attributable to VISTAX. Therefore, VISTAX financial values in this report are planning scenarios or sensitivity calculations, not observed historical VISTAX results.
 
 ---
 
-## 3. Actual Bailadila baseline (FY 2024-25)
+## 2. VISTAX and the Existing NMDC Baseline
 
-### Production and sales
+VISTAX is an integrated mine-vehicle safety concept with a vehicle-side driver-assistance layer, centralized monitoring, sensor inputs, hazard / collision-risk detection, advisory alerts, event logging and analytics.
 
-NMDC's 1 April 2025 stock-exchange filing reports the following cumulative FY25 numbers for **Chhattisgarh**, which correspond to the Bailadila operating sector in NMDC's production disclosures:
+However, VISTAX should **not** be presented as replacing NMDC's existing Fleet Management System.
 
-- Production: **29.98 million tonnes (MT)**
-- Sales: **30.81 MT**
+NMDC has already implemented / advanced FMS capabilities at Bailadila operations.
 
-The same filing reports NMDC's company-wide FY25 totals:
+The Ministry of Steel reports FMS-related benefits including driver-behaviour monitoring, route optimization, fuel-consumption management and operating-cost control.
 
-- Production: **44.04 MT** in the provisional March filing; the audited annual report reports **44.07 MT**.
-- Sales: **44.40 MT**
+NMDC's FY25 Annual Report also identifies:
 
-Use the audited annual-report figure of 44.07 MT whenever a final FY25 corporate production number is needed.
+> Vision Enhancement for Dumper Movement during Foggy Weather
 
-Source: NMDC, Provisional Production & Sales filing dated 1 April 2025:
-https://www.nmdc.co.in/cms-admin/Upload/Production_Sales_Prices_Documents/5769694fba1c42aaabf5b02afc78bad6_20250401155049736.pdf
+among its digital initiatives.
 
-Source: NMDC Annual Report 2024-25:
+Therefore:
+
+> **VISTAX should be positioned as an additional low-visibility safety and driver-assistance layer that complements the existing NMDC digital mine ecosystem.**
+
+### Sources
+
+NMDC Limited — Annual Report 2024-25  
 https://www.nmdc.co.in/cms-admin/Upload/Annual_Report_Documents/38e8511b260c46fe9ab44c1948362166_20250807000209693.pdf
 
-### 40-day stoppage
+Ministry of Steel — Annual Report 2024-25  
+https://steel.gov.in/sites/default/files/2025-04/Steel_English_AR_2024%20%281%29.pdf
 
-A Government forest-clearance record states that, in FY24-25, NMDC reported **29.98 MT** total production from the Bailadila sector and that ROM production was affected by a **40-day stoppage due to Industrial Relations (IR)**. The document says production otherwise would have reached about 90% of total production capacity.
+---
 
-This is a real historical operational-loss event, but it was **not caused by low visibility or vehicle safety** and therefore must not be presented as a VISTAX benefit already achieved.
+## 3. Actual Bailadila / NMDC Baseline
 
-Source: Government of India's forest-clearance record:
+### FY 2024-25 Production and Sales
+
+NMDC's disclosed FY25 figures include:
+
+| Metric | Value |
+|---|---:|
+| Bailadila / Chhattisgarh sector production | 29.98 MT |
+| Chhattisgarh sector sales | 30.81 MT |
+| NMDC total iron-ore production | 44.07 MT |
+| NMDC total iron-ore sales | 44.40 MT |
+
+The 29.98 MT and 30.81 MT figures are from NMDC's production and sales disclosure dated 1 April 2025.
+
+The 44.07 MT production and 44.40 MT sales values are reported in the audited FY25 Annual Report.
+
+### Sources
+
+NMDC — Production & Sales disclosure dated 1 April 2025:
+
+https://www.nmdc.co.in/cms-admin/Upload/Production_Sales_Prices_Documents/5769694fba1c42aaabf5b02afc78bad6_20250401155049736.pdf
+
+NMDC — Annual Report 2024-25:
+
+https://www.nmdc.co.in/cms-admin/Upload/Annual_Report_Documents/38e8511b260c46fe9ab44c1948362166_20250807000209693.pdf
+
+---
+
+## 4. Historical Operational Disruption
+
+A Government of India forest-clearance record reports that FY24-25 Bailadila production was affected by a 40-day stoppage associated with Industrial Relations.
+
+The record also states that production otherwise would have reached approximately 90% of total production capacity.
+
+This event must be interpreted correctly.
+
+It is:
+
+- A historical operational disruption.
+- Not evidence of a VISTAX loss.
+- Not evidence of a VISTAX saving.
+- Not evidence that fog caused the 40-day stoppage.
+
+Therefore, the event is included only as operating-context evidence.
+
+### Source
+
+Government of India Forest / FAC record:
+
 https://forestsclearance.nic.in/writereaddata/FAC_Minutes/6119121212151document%2824%29.pdf
 
 ---
 
-## 4. Actual financial baseline
+## 5. Actual NMDC Financial Baseline
 
-### Iron-ore sales value and implied realization
+### 5.1 Iron-ore sales value
 
-NMDC's FY25 audited annual report reports:
+NMDC's FY25 Annual Report reports:
 
 - Iron-ore sales volume: **44.40 MT**
 - Iron-ore sales value: **₹22,803.40 crore**
 
-This implies an average company-wide iron-ore realization of approximately:
+This gives an implied company-wide average realization:
 
-**₹5,136 per tonne**
+`₹22,803.40 crore / 44.40 million tonnes`
 
-Calculation:
+`≈ ₹5,136 per tonne`
 
-`₹22,803.40 crore / 44.40 million tonnes ≈ ₹5,136/t`
+### Important interpretation
 
-This is a **NMDC-wide average realization**, not a disclosed Bailadila-only selling price. It is suitable as a transparent valuation proxy for a planning model, but should not be labelled as the actual Bailadila price.
+₹5,136/t is:
 
-At FY25 Bailadila/Chhattisgarh average monthly sales of 30.81/12 = **2.57 MT/month**, this proxy corresponds to about **₹1,319 crore/month of gross iron-ore sales value**. This is a run-rate calculation, not a separately disclosed Bailadila monthly revenue figure.
+- A calculated NMDC-wide average realization proxy.
+- Based on FY25 disclosed sales value and volume.
+- Not a Bailadila-specific selling price.
+- Not a fixed future iron-ore price.
+- Not a VISTAX-generated value.
 
-Source: NMDC Annual Report 2024-25, physical and financial performance tables.
+It is used only as a transparent scenario valuation proxy.
 
----
+### Source
 
-## 5. Actual safety data (company-wide, not Bailadila-only)
+NMDC Annual Report 2024-25:
 
-NMDC's FY25 Business Responsibility and Sustainability disclosures report:
-
-- Workers' LTIFR: **0.17 per one million person-hours worked**
-- Total recordable work-related injuries — workers: **3**
-- Worker fatalities: **0**
-- High-consequence work-related injuries/ill-health excluding fatalities — workers: **2**
-- Severity rate: **19.18**
-- Injury frequency rate: **0.15**
-
-These are **NMDC-level disclosures**, not a Bailadila-only accident count. They should not be converted into a Bailadila-specific avoided-cost figure without project-level incident and claims data.
-
-Source: NMDC Annual Report 2024-25, Safety / BRSR disclosures.
+https://www.nmdc.co.in/cms-admin/Upload/Annual_Report_Documents/38e8511b260c46fe9ab44c1948362166_20250807000209693.pdf
 
 ---
 
-## 6. Actual cost pools relevant to VISTAX
+## 6. NMDC Cost Reference Pool
 
-The FY25 audited standalone financial statements disclose:
+NMDC's FY25 financial disclosures report:
 
-- **Petrol, diesel, LDO and lubricants:** ₹210.09 crore for FY25
-- **Repairs & maintenance:** ₹254.65 crore for FY25
-
-Combined reference pool:
-
-**₹464.74 crore/year**, or about **₹38.73 crore/month** on a simple annualized basis.
-
-These are **company-wide NMDC figures**. The public annual report does not provide a clean Bailadila-only split that can be used to state an audited monthly VISTAX saving.
-
-Source: NMDC Annual Report 2024-25, Notes to Standalone Financial Statements, including Note 2.36 and Note 2.40.
-
----
-
-## 7. Corrected financial model for the VISTAX Bailadila plan
-
-### A. Revenue gain model
-
-Average monthly Bailadila/Chhattisgarh sales volume in FY25:
-
-`30.81 MT / 12 = 2.5675 MT/month`
-
-At the NMDC-wide planning proxy of ₹5,136/t:
-
-| Incremental sellable volume | Approx. gross revenue gain / month |
+| Cost item | FY25 |
 |---|---:|
-| 0.5% | **₹6.6 crore** |
-| 1.0% | **₹13.2 crore** |
-| 2.0% | **₹26.4 crore** |
+| Petrol, Diesel, LDO & Lubricants | ₹210.09 Cr |
+| Repairs & Maintenance | ₹254.65 Cr |
+| Combined reference pool | ₹464.74 Cr/year |
 
-A practical pilot case is **0.5%-1.0% incremental sellable volume**, equivalent to about **₹6.6-₹13.2 crore/month of gross revenue value**, provided the extra tonnes are actually produced, evacuated and sold.
+Simple annualized monthly equivalent:
 
-This is **not** a guaranteed VISTAX return. It excludes incremental mining/processing/rail costs and assumes the incremental tonnes realize approximately the FY25 company-wide average.
+`₹464.74 Cr / 12`
 
-### B. Cost-saving model
+`≈ ₹38.73 Cr/month`
 
-Using the FY25 NMDC company-wide fuel/lubricant + repairs/maintenance reference pool of ₹38.73 crore/month:
+### Important limitation
 
-| Reduction in the reference pool | Indicative monthly saving |
-|---|---:|
-| 3% | **₹1.16 crore/month** |
-| 5% | **₹1.94 crore/month** |
+These are **NMDC company-level values**, not Bailadila-only figures.
 
-A clean planning range for a pitch/deck is therefore:
+They therefore cannot be used to state:
 
-**₹1.2-₹1.9 crore/month cost-saving potential (modelled target, not audited Bailadila actual).**
+> "VISTAX will save ₹X crore per month at Bailadila."
 
-The final number should be recalculated after the pilot from actual BIOM Bacheli/Kirandul fuel, tyre, repair and downtime cost-center data.
+They can only be used as a reference pool for sensitivity analysis until project-level cost data is available.
 
----
+### Source
 
-## 8. What should replace the original VISTAX card
+NMDC Annual Report 2024-25:
 
-### Recommended website card text
-
-**Monthly Financial Impact — Bailadila (NMDC)**
-
-**Cost Saving**  
-**₹1.2-₹1.9 Cr / month***  
-Reduced fuel/lubricant use + avoidable vehicle/repair losses + better utilization.
-
-**Revenue Gain**  
-**₹6.6-₹13.2 Cr / month***  
-Equivalent gross revenue from a 0.5%-1.0% increase in sellable Bailadila tonnage, valued at ~₹5,136/t FY25 NMDC average iron-ore realization.
-
-**Modelled Monthly Financial Opportunity**  
-**₹7.8-₹15.1 Cr / month***
-
-`*Planning model, not audited VISTAX savings. Validate from Bailadila project-level baseline data during pilot.`
-
-### Even safer version for an investor/judging deck
-
-**Financial Impact (Modelled, Bailadila)**  
-Cost saving: **₹1.2-₹1.9 Cr/month***  
-Revenue protection/uplift: **₹6.6-₹13.2 Cr/month***  
-
-`*Derived from FY25 NMDC disclosed cost pools and iron-ore realization; not historical VISTAX performance.`
-
-The second version is preferable when the audience may interpret a headline number as an audited result.
+https://www.nmdc.co.in/cms-admin/Upload/Annual_Report_Documents/38e8511b260c46fe9ab44c1948362166_20250807000209693.pdf
 
 ---
 
-## 9. What should NOT be presented as “actual”
+## 7. Cost-Saving Sensitivity Model
 
-The following numbers in the original image are not supported as audited Bailadila/VISTAX results:
+The following calculation is intentionally presented as a sensitivity model.
 
-- ₹0.5-2.0 Cr/month reduced accident & repair cost
-- ₹1-3 Cr/month lower downtime & idle time
-- ₹1-2 Cr/month fuel-efficiency saving
-- ₹0.5-1.5 Cr/month weather-related delay saving
-- ₹2-5 Cr/month increased ore evacuation
-- ₹1-3 Cr/month higher fleet utilization
-- ₹2-4 Cr/month higher production throughput
-- ₹10-20 Cr/month overall expected financial impact
+### Reference pool
 
-Those figures may be used only as **unvalidated assumptions/scenario estimates**. They should not be labelled as historical or actual NMDC Bailadila data.
+`₹38.73 Cr/month`
+
+### Scenario A — 3% reduction
+
+`3% × ₹38.73 Cr`
+
+`≈ ₹1.16 Cr/month`
+
+### Scenario B — 5% reduction
+
+`5% × ₹38.73 Cr`
+
+`≈ ₹1.94 Cr/month`
+
+### Sensitivity range
+
+> **₹1.2–₹1.9 Cr/month**
+
+### Correct interpretation
+
+This means:
+
+> If an applicable cost pool of ₹38.73 Cr/month experienced a 3–5% reduction, the mathematical value would be approximately ₹1.16–₹1.94 Cr/month.
+
+It does **not** mean:
+
+> VISTAX has already demonstrated ₹1.2–₹1.9 Cr/month savings.
+
+It also does not prove that the full NMDC-wide pool is affected by VISTAX.
+
+### What must be validated during pilot
+
+The cost denominator should be replaced with actual site-level data from:
+
+- BIOM Bacheli.
+- BIOM Kirandul.
+- Relevant HEMM / dumper fleets.
+- Actual low-visibility operating periods.
+- Fuel usage.
+- Repair records.
+- Idle time.
+- Downtime.
 
 ---
 
-## 10. Bailadila-specific deployment plan for VISTAX
+## 8. Gross Revenue-Value Sensitivity
 
-### Phase 1 — 90-day pilot
+### Bailadila / Chhattisgarh FY25 sales basis
 
-Deploy first on a controlled subset of high-risk haulage routes and selected HEMM/dumpers at **BIOM Bacheli and/or BIOM Kirandul**.
+`30.81 MT/year`
 
-Integrate VISTAX outputs with the existing FMS rather than replacing it. The VISTAX layer should focus on the gaps most relevant to the SIH problem statement:
+Simple monthly equivalent:
 
-1. Low-visibility perception and forward hazard detection.
-2. Multi-sensor fusion for camera + ranging/position context.
-3. Driver warnings before collision-risk situations.
-4. Offline operation where connectivity is weak.
-5. Event logging for near-miss, obstruction and visibility incidents.
-6. Link safety events to fleet, route and production KPIs.
+`30.81 / 12`
 
-### Pilot KPIs
+`≈ 2.568 MT/month`
 
-Track a 30-60 day baseline before intervention and compare against the same routes/vehicle classes after deployment:
+### Incremental sellable-volume scenarios
 
-- Collision-risk alerts per 1,000 operating hours.
-- Near-miss events per 1,000 trips.
-- False-alert rate.
-- Alert latency.
-- Low-visibility trip interruptions / stopped minutes.
-- Vehicle idle minutes.
-- Fuel/lubricant cost per tonne hauled.
-- Unscheduled repair cost per operating hour.
-- Tyre incidents.
+| Incremental sellable volume | Approx. additional tonnes/month |
+|---:|---:|
+| 0.5% | 12,840 tonnes |
+| 1.0% | 25,680 tonnes |
+| 2.0% | 51,360 tonnes |
+
+Using the NMDC-wide FY25 realization proxy of approximately ₹5,136/t:
+
+### 0.5% case
+
+`12,840 × ₹5,136`
+
+`≈ ₹6.6 Cr/month gross revenue value`
+
+### 1.0% case
+
+`25,680 × ₹5,136`
+
+`≈ ₹13.2 Cr/month gross revenue value`
+
+### 2.0% case
+
+`51,360 × ₹5,136`
+
+`≈ ₹26.4 Cr/month gross revenue value`
+
+### Recommended scenario range
+
+> **₹6.6–₹13.2 Cr/month gross revenue-value sensitivity**
+
+The 0.5–1.0% range is a modelling assumption for scenario analysis.
+
+It is **not** a measured VISTAX production uplift.
+
+---
+
+## 9. Why the Revenue Figure Is Not Profit
+
+The calculation:
+
+`Incremental tonnes × realization per tonne`
+
+provides a **gross revenue value**.
+
+It does not provide incremental profit.
+
+To determine actual contribution or profit, the model must account for incremental:
+
+- Mining cost.
+- Crushing cost.
+- Screening cost.
+- Haulage cost.
+- Material handling.
+- Railway / evacuation cost.
+- Royalty.
+- Statutory charges.
+- Other variable operating expenses.
+
+Therefore:
+
+> **Gross revenue value ≠ incremental profit**
+
+The final business case should use contribution margin where the required mine-level data is available.
+
+---
+
+## 10. Combined Scenario Value
+
+Mathematically, the two independent sensitivity ranges can be added:
+
+### Cost-saving sensitivity
+
+`₹1.2–₹1.9 Cr/month`
+
+### Gross revenue-value sensitivity
+
+`₹6.6–₹13.2 Cr/month`
+
+### Mathematical combined range
+
+`₹7.8–₹15.1 Cr/month`
+
+However, this figure must carry a strong qualification.
+
+> **₹7.8–₹15.1 Cr/month is an illustrative combined scenario, not an observed VISTAX financial result, not a Bailadila audited saving, and not a guaranteed profit.**
+
+The reason is that the two components use different modelling bases:
+
+- Cost saving uses a company-level NMDC reference pool.
+- Revenue value uses Bailadila / Chhattisgarh sales volume.
+- The 3–5% and 0.5–1.0% effects are assumptions.
+- Neither effect has yet been causally demonstrated by a VISTAX field pilot.
+
+### Recommendation
+
+For a judging / investor presentation, do **not** use:
+
+> "Estimated additional profit: ₹7.8–₹15.1 Cr/month"
+
+Use:
+
+> **Financial Impact — Modelled Scenario**
+>
+> **Cost-saving sensitivity:** ₹1.2–₹1.9 Cr/month*  
+> **Gross revenue-value sensitivity:** ₹6.6–₹13.2 Cr/month*
+>
+> `*Scenario calculations based on FY25 disclosed NMDC values; not historical VISTAX performance.`
+
+---
+
+## 11. What Must Be Removed From the Original Financial Card
+
+The following values should not be presented as actual or measured VISTAX results unless supported by a signed-off mine pilot:
+
+- ₹0.5–2.0 Cr/month reduced accident & repair cost.
+- ₹1–3 Cr/month lower downtime & idle-time cost.
+- ₹1–2 Cr/month fuel-efficiency saving.
+- ₹0.5–1.5 Cr/month weather-related delay saving.
+- ₹2–5 Cr/month increased ore evacuation.
+- ₹1–3 Cr/month higher fleet utilization.
+- ₹2–4 Cr/month higher production throughput.
+- ₹10–20 Cr/month overall expected financial impact.
+
+These may exist as historical draft assumptions, but they should not be described as:
+
+- Actual.
+- Audited.
+- Measured.
+- Guaranteed.
+- VISTAX-proven.
+
+---
+
+## 12. Pilot-Based Financial Validation
+
+The pilot should establish a site-specific financial baseline.
+
+### Required operational inputs
+
+- Number of participating dumpers / HEMM.
+- Vehicle operating hours.
+- Trips per shift.
+- Payload per vehicle.
 - Average cycle time.
-- Tonnes moved per operating hour.
-- Sellable tonnes / dispatched tonnes.
+- Low-visibility hours.
+- Visibility-related interruptions.
+- Idle time.
+- Fuel consumption.
+- Maintenance expenditure.
+- Tyre-related events.
+- Near-miss / collision-risk events.
+- Tonnes moved.
+- Sellable tonnes.
+- Dispatch / evacuation constraints.
+- Actual realized price.
 
-### Financial calculation after pilot
+---
 
-Use the mine's own cost-center data for the final audited-style business case:
+## 13. Recommended Pilot KPIs
 
-`Fuel saving = baseline fuel cost − post-pilot fuel cost, adjusted for tonnes moved`
+Track a 30–60 day baseline before intervention and compare it with VISTAX-assisted operation.
+
+| KPI | Measurement |
+|---|---|
+| Collision-risk alerts | Per 1,000 operating hours |
+| Near-miss events | Per 1,000 trips |
+| False-alert rate | Per operating hour / vehicle |
+| Alert latency | Event-to-alert time |
+| Detection distance | Verified distance by scenario |
+| Low-visibility interruption | Stopped minutes / hours |
+| Idle time | Minutes per operating hour |
+| Fuel cost | ₹/tonne hauled |
+| Unscheduled repair cost | ₹/operating hour |
+| Tyre incidents | Events per operating period |
+| Average cycle time | Minutes/trip |
+| Tonnes moved | Tonnes/operating hour |
+| Sellable tonnes | Tonnes/month |
+| Fleet utilization | Productive / available time |
+| Sensor availability | % healthy time |
+| Operator acceptance | Structured pilot feedback |
+
+---
+
+## 14. Pilot Financial Equations
+
+### Fuel saving
+
+`Fuel saving = normalized baseline fuel cost − normalized post-pilot fuel cost`
+
+Fuel cost should be normalized for changes in:
+
+- Tonnes moved.
+- Operating hours.
+- Fleet composition.
+- Route conditions.
+- Vehicle utilization.
+
+### Repair saving
 
 `Repair saving = baseline avoidable repair cost − post-pilot avoidable repair cost`
 
+Only relevant avoidable repair categories should be included.
+
+### Downtime value
+
 `Downtime value = recovered operating hours × verified contribution per operating hour`
 
-`Revenue gain = incremental sellable tonnes × realized price per tonne`
+This should use an operational contribution value rather than simply multiplying recovered time by gross sales.
 
-`Net benefit = cost savings + incremental contribution/revenue − VISTAX operating cost`
+### Revenue value
 
-Do not use gross revenue as profit. Incremental mining, crushing, screening, haulage, rail and statutory charges must be deducted for a true contribution-margin calculation.
+`Gross revenue value = incremental sellable tonnes × realized price per tonne`
+
+### Incremental contribution
+
+`Incremental contribution = incremental sellable tonnes × contribution margin per tonne`
+
+### Net benefit
+
+`Net benefit = verified cost savings + incremental contribution − VISTAX operating cost`
+
+### ROI
+
+`ROI = annual net benefit / total VISTAX investment`
+
+### Payback period
+
+`Payback period = deployment cost / verified monthly net benefit`
 
 ---
 
-## 11. Why the original ₹10-20 Cr/month figure needs correction
+## 15. Financial Data Required From Mine for Final ROI
 
-The original image presents **₹10-20 crore/month** as an overall expected financial impact. Public NMDC data does not establish that figure.
+The public model should be replaced by mine-provided data after pilot initiation.
 
-A transparent model produces a similar order of magnitude only after combining two assumptions:
+### Cost data
 
-- **₹1.2-₹1.9 crore/month** modelled cost saving from a 3-5% reduction in the relevant company-wide cost reference pool; and
-- **₹6.6-₹13.2 crore/month** gross revenue value from a 0.5-1.0% increase in sellable Bailadila tonnage.
+- Fuel cost by relevant HEMM fleet.
+- Lubricant cost.
+- Repair and maintenance cost.
+- Tyre cost.
+- Idle-time cost.
+- Downtime cost.
+- Relevant operator / operating cost.
 
-That produces **₹7.8-₹15.1 crore/month**, but this is a **scenario range**, not an observed NMDC result and not a guarantee.
+### Production data
+
+- Tonnes moved per hour.
+- Tonnes moved per vehicle.
+- Cycle time.
+- Trips per day.
+- Low-visibility interruption time.
+- Sellable tonnes.
+- Dispatch / evacuation capacity.
+
+### Revenue data
+
+- Actual Bailadila selling realization by product / grade.
+- Applicable contribution margin.
+- Incremental processing cost.
+- Incremental evacuation cost.
+- Applicable statutory charges.
+
+### VISTAX deployment data
+
+- Hardware cost per vehicle.
+- Installation cost.
+- Maintenance cost.
+- Calibration cost.
+- Software / support cost.
+- Communication infrastructure.
+- Sensor replacement cost.
 
 ---
 
-## 12. Key facts to put in the presentation
+## 16. Financial Interpretation Rules
 
-Use these as the factual baseline:
+The following terminology should be used consistently:
+
+### Actual
+
+A number explicitly reported by NMDC or a Government source.
+
+### Calculated
+
+A mathematical result directly derived from disclosed data.
+
+Example:
+
+`₹22,803.40 Cr / 44.40 MT ≈ ₹5,136/t`
+
+### Modelled
+
+A scenario produced by applying an assumption to a disclosed baseline.
+
+Example:
+
+`3% × ₹38.73 Cr/month = ₹1.16 Cr/month`
+
+### Pilot target
+
+A desired validation threshold.
+
+### Expected impact
+
+An engineering hypothesis requiring field testing.
+
+### Gross revenue value
+
+A sales-value calculation before incremental costs.
+
+### Incremental contribution
+
+Revenue less relevant incremental variable costs.
+
+### Net benefit
+
+Incremental contribution and verified cost savings after VISTAX operating costs.
+
+### ROI
+
+Return relative to the actual VISTAX investment cost.
+
+---
+
+## 17. Recommended Financial Slide Language
+
+### Preferred version
+
+**FINANCIAL IMPACT — MODELLED SCENARIO**
+
+**Cost-saving sensitivity**  
+₹1.2–₹1.9 Cr/month*
+
+Based on a 3–5% sensitivity applied to the disclosed NMDC FY25 reference cost pool.
+
+**Gross revenue-value sensitivity**  
+₹6.6–₹13.2 Cr/month*
+
+Based on a 0.5–1.0% incremental sellable-tonnage scenario using approximately ₹5,136/t as the FY25 NMDC-wide realization proxy.
+
+`*Scenario calculations, not historical VISTAX performance.`
+
+### Do not write
+
+> Estimated additional profit per month
+
+### Write instead
+
+> Modelled financial impact
+
+or:
+
+> Financial impact — pilot validation required
+
+---
+
+## 18. Why the Original ₹10–20 Cr/month Claim Was Replaced
+
+The earlier ₹10–20 Cr/month figure was not directly supported by audited Bailadila-only VISTAX data.
+
+A transparent sensitivity model can produce an order-of-magnitude range of:
+
+`₹1.2–₹1.9 Cr/month`
+
+for the company-level cost-pool sensitivity, plus:
+
+`₹6.6–₹13.2 Cr/month`
+
+for the gross revenue-value sensitivity.
+
+The mathematical combination is:
+
+`₹7.8–₹15.1 Cr/month`
+
+However, the combined figure remains a **scenario**, because:
+
+1. The cost pool is company-level rather than Bailadila-only.
+2. The realization proxy is NMDC-wide rather than Bailadila-only.
+3. The productivity assumptions are not yet field-validated.
+4. The revenue calculation is gross revenue rather than profit.
+5. VISTAX deployment cost is not yet included.
+6. The causal relationship between VISTAX and financial improvement has not yet been demonstrated.
+
+Therefore, the proper next step is not to increase the headline number.
+
+The proper next step is:
+
+> **Measure the baseline → run the pilot → isolate VISTAX-attributable change → calculate contribution → subtract deployment cost → publish the validated ROI.**
+
+---
+
+## 19. Key Financial Facts for Presentation
+
+Use these factual statements:
 
 > **Bailadila / Chhattisgarh FY25:** 29.98 MT production and 30.81 MT sales.
->
-> **NMDC FY25 iron-ore sales:** 44.40 MT worth ₹22,803.40 crore, implying about ₹5,136/t average realization across NMDC.
->
-> **NMDC FY25 cost reference:** ₹210.09 crore on petrol/diesel/LDO/lubricants and ₹254.65 crore on repairs & maintenance.
->
-> **Safety reference:** 0 worker fatalities reported at NMDC level in FY25; worker LTIFR 0.17.
->
-> **Operational disruption:** 40-day FY25 production stoppage in the Bailadila sector was reported due to Industrial Relations, not low visibility.
->
-> **Technology baseline:** NMDC already has FMS at Bacheli and Kirandul; VISTAX should augment it for low-visibility driver assistance and incident intelligence.
+
+> **NMDC FY25:** 44.40 MT iron-ore sales worth ₹22,803.40 crore.
+
+> **Calculated NMDC-wide average realization:** approximately ₹5,136/t.
+
+> **NMDC FY25 reference cost pool:** ₹210.09 crore fuel / lubricants and ₹254.65 crore repairs & maintenance.
+
+> **Reference cost pool:** approximately ₹38.73 crore/month.
+
+> **Modelled cost sensitivity:** ₹1.2–₹1.9 Cr/month at 3–5% of the reference pool.
+
+> **Modelled gross revenue-value sensitivity:** ₹6.6–₹13.2 Cr/month at 0.5–1.0% incremental sellable tonnage.
+
+> **Final site-level ROI:** to be established using pilot data and actual VISTAX deployment cost.
 
 ---
 
-## 13. Source list
+## 20. Primary Sources
 
-1. **NMDC Annual Report 2024-25** — production, sales, financials, safety, FMS, Bailadila capacity/operations.
-   https://www.nmdc.co.in/cms-admin/Upload/Annual_Report_Documents/38e8511b260c46fe9ab44c1948362166_20250807000209693.pdf
+### 1. NMDC Limited — Annual Report 2024-25
 
-2. **NMDC Production & Sales filing, 1 April 2025** — FY25 Chhattisgarh/Bailadila and company production/sales.
-   https://www.nmdc.co.in/cms-admin/Upload/Production_Sales_Prices_Documents/5769694fba1c42aaabf5b02afc78bad6_20250401155049736.pdf
+Production, sales, financials, safety, Fleet Management System and digital initiatives.
 
-3. **Government of India forest-clearance record** — Bailadila FY24-25 29.98 MT production and 40-day IR stoppage statement.
-   https://forestsclearance.nic.in/writereaddata/FAC_Minutes/6119121212151document%2824%29.pdf
+https://www.nmdc.co.in/cms-admin/Upload/Annual_Report_Documents/38e8511b260c46fe9ab44c1948362166_20250807000209693.pdf
 
-4. **Ministry of Steel Annual Report 2024-25** — NMDC Fleet Management System benefits at Bailadila.
-   https://steel.gov.in/sites/default/files/2025-04/Steel_English_AR_2024%20%281%29.pdf
+### 2. NMDC Limited — Production & Sales Disclosure, 1 April 2025
 
-5. **VISTAX project website** — current project architecture and stated pilot-validation scope.
-   https://bug-busters-hazel.vercel.app/
+FY25 Chhattisgarh / Bailadila and company production and sales.
+
+https://www.nmdc.co.in/cms-admin/Upload/Production_Sales_Prices_Documents/5769694fba1c42aaabf5b02afc78bad6_20250401155049736.pdf
+
+### 3. Ministry of Steel — Annual Report 2024-25
+
+NMDC Fleet Management System references.
+
+https://steel.gov.in/sites/default/files/2025-04/Steel_English_AR_2024%20%281%29.pdf
+
+### 4. NMDC — Sustainability / BRSR FY 2024-25
+
+Fuel-consumption and sustainability data.
+
+https://www.nmdc.co.in/cms-admin/Upload/Environment_Sustainability_Documents/18ffd21ac9fa4c71a9578eb82909d301_20260131151221344.pdf
+
+### 5. Government of India Forest / FAC Record
+
+Bailadila FY24-25 production and 40-day Industrial Relations stoppage.
+
+https://forestsclearance.nic.in/writereaddata/FAC_Minutes/6119121212151document%2824%29.pdf
+
+### 6. Smart India Hackathon 2026 Problem Statement Portal
+
+SIH26007 problem context.
+
+https://www.sih.gov.in/sih2026PS
+
+### 7. VISTAX Project Website
+
+Current architecture and project scope.
+
+https://bug-busters-hazel.vercel.app/
 
 ---
+
+## 21. Final Financial Position
+
+The VISTAX financial case should be presented as:
+
+> **Evidence-backed potential, not claimed historical performance.**
+
+The public data establishes the scale of NMDC's operations and financial activity.
+
+The model provides a transparent method for estimating potential value.
+
+The pilot provides the mechanism to replace assumptions with measured site-level data.
+
+The final business case should therefore move through:
+
+`Public baseline`
+
+↓
+
+`Controlled pilot`
+
+↓
+
+`Measured operational improvement`
+
+↓
+
+`Verified financial contribution`
+
+↓
+
+`VISTAX deployment cost`
+
+↓
+
+`Validated ROI and payback`
+
+This approach keeps the financial case auditable, transparent and suitable for industrial review.
