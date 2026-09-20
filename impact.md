@@ -341,7 +341,3 @@ Recommended note below the button:
 - **Modelled:** Planning assumption applied to a disclosed baseline.
 - **Target:** Intended pilot performance threshold, not achieved performance.
 - **Expected impact:** Engineering hypothesis requiring field validation.
-
-### Final statement
-
-**VISTAX should be presented as a low-visibility, offline, multi-sensor driver-assistance and monitoring layer that complements NMDC's existing digital/fleet systems. Its financial impact should be described as a modelled opportunity until site-level Bailadila pilot data validates actual savings, productivity effects and safety KPIs.**
