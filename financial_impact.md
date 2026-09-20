@@ -9,9 +9,9 @@ This note corrects the financial-impact numbers shown in the VISTAX card and bui
 
 ---
 
-## 2. What the VISTAX website currently says
+## 2. What the VISTA currently says
 
-The VISTAX website describes an integrated offline mine-vehicle safety system with a vehicle-side driver-assistance layer (Vista X), centralized monitoring (Vista A), sensor fusion, collision-risk detection, alerts, fleet logs and analytics. It also says that its future validation should measure detection reliability, false alerts, alert latency, cycle time, downtime and operator feedback.
+The VISTA is an integrated offline mine-vehicle safety system with a vehicle-side driver-assistance layer (Vista X), centralized monitoring (Vista A), sensor fusion, collision-risk detection, alerts, fleet logs and analytics. It also says that its future validation should measure detection reliability, false alerts, alert latency, cycle time, downtime and operator feedback.
 
 Source: VISTAX project website, https://bug-busters-hazel.vercel.app/
 
@@ -21,7 +21,7 @@ NMDC has **already commissioned a Fleet Management System (FMS) at both BIOM Bac
 
 The Ministry of Steel's FY2024-25 annual report also states that NMDC's FMS at Bailadila improves fleet safety, route planning and operating-cost control.
 
-Therefore, the VISTAX plan should be presented as an **augmentation / low-visibility safety layer around the existing FMS**, not as the first fleet-monitoring system.
+Therefore, the VISTA plan should be presented as an **augmentation / low-visibility safety layer around the existing FMS**, not as the first fleet-monitoring system.
 
 ---
 
@@ -301,7 +301,3 @@ Use these as the factual baseline:
    https://bug-busters-hazel.vercel.app/
 
 ---
-
-## Bottom line
-
-For a fact-checked Bailadila version, **do not present ₹10-20 Cr/month as actual financial impact**. Present the actual operating/financial baselines separately, then show the **₹7.8-₹15.1 Cr/month scenario range as a modelled opportunity**, with a clear footnote that the mine-specific numbers must be validated from the pilot.
