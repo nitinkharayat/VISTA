@@ -256,7 +256,7 @@ Before commercial implementation, vendor quotations and vehicle/OEM integration 
 
 | System                                    |      Total Estimated Cost |
 | ----------------------------------------- | ------------------------: |
-| **VISTAX College Prototype**              |       **₹25,000–₹30,000** |
+| **VISTAX Our Prototype**              |       **₹25,000–₹30,000** |
 | **VISTAX Real-World Mine Implementation** | **₹12–15 lakh / vehicle** |
 
 **The prototype demonstrates the concept.
