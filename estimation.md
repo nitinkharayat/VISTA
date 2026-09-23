@@ -2,262 +2,221 @@
 
 **Project:** VISTAX — Mine Vehicle Safety for Fog and Low Visibility
 **SIH Problem Statement:** 26007
-**Estimate Date:** September 2026
+**Market Price Check:** September 2026
 **Currency:** Indian Rupees (INR)
 
 ---
 
-# 1. Our Prototype Cost
+# 1. Our College / SIH Prototype Cost
 
-The VISTAX website shows the prototype architecture using **ESP8266, Arduino, camera, sonar, LiDAR, thermal, GPS/DGPS, IMU and communication hardware**. The physical prototype shown on the website is intended as a college/SIH demonstration system rather than a production mining installation.
+The prototype uses low-cost development hardware to demonstrate sensing, sensor fusion, object detection, tracking and dashboard visualization. The prices below are based on currently listed India-market products rather than assumed component rates.
 
-**Important:** The website does not publish exact individual component prices, so the following is an **estimated prototype BOM** based on the hardware categories shown on the website and typical student-development hardware.
+| Hardware                             | Product / Benchmark                     | Qty. | Current Listed Rate |        Cost |
+| ------------------------------------ | --------------------------------------- | ---: | ------------------: | ----------: |
+| ESP8266                              | NodeMCU ESP8266 Wi-Fi Development Board |    1 |                ₹199 |        ₹199 |
+| Sonar                                | HC-SR04 Ultrasonic Sensor, 2–400 cm     |    1 |                 ₹69 |         ₹69 |
+| LiDAR                                | YDLIDAR X4 Pro                          |    1 |              ₹6,986 |      ₹6,986 |
+| Thermal Sensor                       | MLX90640 32×24 Thermal Camera           |    1 |              ₹7,250 |      ₹7,250 |
+| GPS                                  | u-blox NEO-6M GPS Module                |    1 |                ₹249 |        ₹249 |
+| IMU                                  | MPU-6050 Accelerometer + Gyroscope      |    1 |                ₹154 |        ₹154 |
+| Wireless Communication               | HC-05 Bluetooth Module                  |    1 |                ₹215 |        ₹215 |
+| Display                              | 0.96-inch OLED Module                   |    1 |                ₹209 |        ₹209 |
+| Power Regulation                     | LM2596 Buck Converter with Display      |    1 |                ₹110 |        ₹110 |
+| Warning                              | Active Buzzer Module                    |    1 |                 ₹27 |         ₹27 |
+| Prototype Wiring                     | Breadboard + Jumper Wire Combo          |    1 |                ₹279 |        ₹279 |
+| Power Supply                         | 12 V, 2 A Adapter                       |    1 |                ₹259 |        ₹259 |
+| Enclosure                            | IP67 Polycarbonate Enclosure            |    1 |              ₹3,893 |      ₹3,893 |
+| **Current Priced Hardware Subtotal** |                                         |      |                     | **₹20,753** |
 
-| Hardware                                  |  Qty. | Estimated Rate | Estimated Cost |
-| ----------------------------------------- | ----: | -------------: | -------------: |
-| ESP8266 development module                |     1 |           ₹500 |           ₹500 |
-| Arduino development board                 |     1 |           ₹700 |           ₹700 |
-| RGB camera module                         |     1 |         ₹1,500 |         ₹1,500 |
-| 4 m ultrasonic/sonar sensor               |     1 |           ₹650 |           ₹650 |
-| Low-cost LiDAR distance sensor            |     1 |         ₹3,500 |         ₹3,500 |
-| Prototype thermal sensor/module           |     1 |         ₹4,000 |         ₹4,000 |
-| GPS module                                |     1 |           ₹900 |           ₹900 |
-| IMU module                                |     1 |           ₹300 |           ₹300 |
-| Wireless communication module             |     1 |         ₹1,200 |         ₹1,200 |
-| DC power regulation/protection            | 1 set |         ₹1,000 |         ₹1,000 |
-| Small display / status interface          |     1 |         ₹2,500 |         ₹2,500 |
-| Buzzer + warning LED/strobe               |     1 |           ₹500 |           ₹500 |
-| Wiring, connectors and terminals          | 1 set |         ₹1,500 |         ₹1,500 |
-| Prototype enclosure / mould / fabrication |     1 |         ₹3,000 |         ₹3,000 |
-| Sensor brackets and mounting hardware     | 1 set |         ₹1,500 |         ₹1,500 |
-| PCB / perfboard / connectors              | 1 set |           ₹500 |           ₹500 |
-| Battery / power supply                    |     1 |         ₹1,500 |         ₹1,500 |
-| **TOTAL ESTIMATED COLLEGE PROTOTYPE**     |       |                |    **₹25,150** |
+The ESP8266 price is listed at ₹199.42 incl. taxes by ElectronicsComp; an Arduino Uno R3 compatible board is listed at ₹219 by Robu; ESP32-CAM is listed at ₹635 by Robocraze; HC-SR04 is ₹69 incl. GST; NEO-6M is around ₹239–₹269 across Indian suppliers; and MPU-6050 is ₹154 incl. GST.
 
-## Prototype Cost
+The YDLIDAR X4 Pro is currently listed around ₹6,986, while the MLX90640 thermal camera is listed around ₹7,250 in India.
 
-> **Estimated college-level prototype cost: approximately ₹25,000–₹30,000**
+The HC-05 wireless module is listed at ₹215, the LM2596 module with display at ₹110, the active buzzer at ₹27, and the breadboard/jumper combination at ₹279.
 
-This estimate includes the sensors, controller boards, wiring, power electronics, enclosure/mould fabrication, mounts and warning hardware.
+The 12 V, 2 A adapter is currently listed at ₹259 and the selected IP67 polycarbonate enclosure at ₹3,893 incl. GST.
 
-The processing computer can be an **existing laptop/PC/tablet**, so it is not included as a new hardware purchase in this college-level estimate.
+### Prototype Cost
 
-### Prototype sensor limitation
+> **Current priced hardware subtotal: approximately ₹20,750**
 
-The **4 m ultrasonic/sonar sensor is suitable for demonstrating short-range distance sensing**, but it should **not be presented as the primary ranging technology for a real mining haul vehicle**.
+For soldering, PCB/perfboard, additional connectors, mounting brackets, fabrication and miscellaneous consumables, use a separate **₹2,000–₹4,000 prototype allowance** rather than pretending those items have one universal market price.
 
-Its role in the VISTAX prototype is therefore:
+> **Estimated complete college/SIH prototype: approximately ₹23,000–₹25,000**
 
-> **Our prototype / proof-of-concept distance sensing**
+### Prototype Sonar Limitation
 
-and not:
+The HC-SR04 provides a **2–400 cm** sensing range and is suitable for proof-of-concept short-range distance measurement. It should not be presented as the primary ranging sensor for a full-scale mining haul vehicle.
 
-> **Production mine-vehicle ranging system**
+**Prototype role:** Short-range proof-of-concept distance sensing.
+
+**Real-world role:** Replaced by an appropriate industrial/vehicle-grade ranging system.
 
 ---
 
-# 2. Real-World Mine Implementation Cost
+# 2. Real-World Mine Vehicle Implementation
 
-For actual mining deployment, the hardware must be changed from low-cost demonstration components to **industrial, ruggedized and vehicle-integrated hardware**.
+The production system requires substantially more rugged hardware. The cost should therefore be based on **named engineering products where public prices are available**, while vendor-quotation items are clearly identified.
 
-The most important change is the ranging system:
+| Hardware                               | Product / Benchmark                          | Qty. | Current Listed Rate |            Cost |
+| -------------------------------------- | -------------------------------------------- | ---: | ------------------: | --------------: |
+| Radar                                  | TI IWR1843 76–81 GHz radar sensor*           |    1 |              ₹2,521 |          ₹2,521 |
+| 3D LiDAR                               | Livox Mid-360                                |    1 |           ₹1,59,999 |       ₹1,59,999 |
+| Thermal                                | FLIR Lepton 3.1R 160×120 module              |    1 |             ₹14,237 |         ₹14,237 |
+| RGB Camera                             | TP-Link VIGI C220I IP67 PoE camera           |    2 |              ₹3,599 |          ₹7,198 |
+| RTK GNSS                               | AeroAtoms Orbit Neo, ZED-F9P                 |    1 |             ₹23,499 |         ₹23,499 |
+| RTK Antennas                           | GNSS high-gain antennas                      |    2 |              ₹2,650 |          ₹5,300 |
+| Edge Computer                          | Seeed reComputer J4012, Jetson Orin NX 16 GB |    1 |         ₹1,18,681** |       ₹1,18,681 |
+| Industrial Ethernet Switch             | Moxa EDS-205A                                |    1 |             ₹11,136 |         ₹11,136 |
+| Safety Relay                           | ABB Sentry SSR10 24 VDC                      |    1 |             ₹19,389 |         ₹19,389 |
+| Emergency Stop                         | Eaton RMQ-Titan IP67                         |    1 |              ₹5,189 |          ₹5,189 |
+| Warning Beacon                         | RS PRO 24 V LED Beacon                       |    1 |              ₹4,879 |          ₹4,879 |
+| Industrial DC UPS                      | PULS UB20.241, 24 V / 600 W                  |    1 |             ₹49,872 |         ₹49,872 |
+| DC/DC Converter                        | G-energy 24 V → 12 V, 60 W                   |    1 |     ~₹590 incl. GST |           ~₹590 |
+| IP67 Enclosure                         | RS PRO Polycarbonate IP67 enclosure          |    1 |             ₹11,983 |         ₹11,983 |
+| Industrial M12 Cabling                 | RS PRO IP67 M12 cable/connector benchmark    |    6 |              ₹1,691 |         ₹10,149 |
+| 4G Connectivity                        | Quectel EC25 LTE module benchmark            |    1 |             ₹10,919 |         ₹10,919 |
+| **Publicly Priced Hardware Benchmark** |                                              |      |                     | **≈ ₹4,55,500** |
 
-> **4 m ultrasonic sonar → 77–81 GHz industrial radar**
+* The TI IWR1843 price is for the **76–81 GHz radar sensor device itself**, not a complete rugged mining-radar assembly. Mouser lists the device from ₹2,520.52 at quantity 1, while TI's ecosystem also includes complete evaluation boards.
 
-Radar is more appropriate as the primary ranging technology for a mine vehicle because the system must operate over substantially greater distances and under difficult visibility conditions.
+** The reComputer J4012 listing includes the Jetson Orin NX 16 GB platform, carrier hardware and storage. A current India listing was ₹118,681 incl. GST when checked.
 
-The real deployment should also use industrial thermal sensing, rugged cameras, RTK GNSS, industrial IMU, production-grade edge computing, protected vehicle power, sealed cabling, safety hardware and a rugged enclosure.
+The Livox Mid-360 is currently listed at ₹159,999 in India.
 
-The detailed project hardware study gives the following component planning ranges and selected benchmark prices.
+The FLIR Lepton 3.1R 160×120 module is listed at ₹14,236.95, while the higher-cost FLIR TG267 industrial thermal camera is listed around ₹65,999.
 
-## Real-World Hardware BOM
+The TP-Link VIGI C220I is IP67-rated and supports vehicle detection; current India listings are around ₹3,006–₹3,599 depending on the lens/listing.
 
-| Hardware                                            |  Qty. | Estimated Rate | Estimated Cost |
-| --------------------------------------------------- | ----: | -------------: | -------------: |
-| 77–81 GHz industrial radar                          |     1 |        ₹60,000 |        ₹60,000 |
-| Industrial thermal camera                           |     1 |      ₹1,50,000 |      ₹1,50,000 |
-| Industrial IP67 front RGB camera                    |     1 |        ₹12,000 |        ₹12,000 |
-| Industrial rear RGB camera                          |     1 |         ₹8,000 |         ₹8,000 |
-| Industrial 3D LiDAR                                 |     1 |      ₹4,00,000 |      ₹4,00,000 |
-| RTK GNSS receiver                                   |     1 |        ₹26,000 |        ₹26,000 |
-| Dual RTK GNSS antennas                              |     2 |         ₹2,500 |         ₹5,000 |
-| Industrial IMU                                      |     1 |        ₹25,000 |        ₹25,000 |
-| NVIDIA Jetson Orin NX-class edge computer           |     1 |      ₹1,00,000 |      ₹1,00,000 |
-| CAN / J1939 interface                               |     1 |        ₹10,000 |        ₹10,000 |
-| Industrial 4G router                                |     1 |        ₹15,000 |        ₹15,000 |
-| Industrial Ethernet switch                          |     1 |        ₹12,000 |        ₹12,000 |
-| Industrial safety relay                             |     1 |        ₹14,000 |        ₹14,000 |
-| Industrial emergency stop                           |     1 |         ₹2,500 |         ₹2,500 |
-| Buzzer + strobe warning beacon                      |     1 |         ₹5,000 |         ₹5,000 |
-| Rugged driver display                               |     1 |        ₹15,000 |        ₹15,000 |
-| 24 V industrial DC UPS                              |     1 |         ₹8,000 |         ₹8,000 |
-| Industrial DC/DC converter                          |     1 |         ₹8,000 |         ₹8,000 |
-| Power protection, TVS, fuses and distribution       | 1 set |        ₹10,000 |        ₹10,000 |
-| IP65/IP67 industrial enclosure                      |     1 |        ₹20,000 |        ₹20,000 |
-| Industrial M12/M8 cabling and connectors            | 1 set |        ₹25,000 |        ₹25,000 |
-| Rugged sensor mounts + vibration isolation + guards | 1 set |        ₹20,000 |        ₹20,000 |
-| Sensor cleaning / air-purge provision               | 1 set |        ₹20,000 |        ₹20,000 |
-| UWB worker tags + anchors                           | 1 set |        ₹40,000 |        ₹40,000 |
-| Production enclosure tooling / fabrication          |     1 |        ₹50,000 |        ₹50,000 |
-| Vehicle installation + calibration + integration    |     1 |      ₹1,00,000 |      ₹1,00,000 |
-| Spare hardware / replacement allowance              | 1 set |        ₹50,000 |        ₹50,000 |
-| **TOTAL ESTIMATED REAL-WORLD IMPLEMENTATION**       |       |                | **₹12,10,500** |
+The AeroAtoms Orbit Neo ZED-F9P RTK GNSS is listed at ₹23,499, with RTK antenna options separately available.
 
-The hardware study supports the underlying planning ranges for radar, thermal, LiDAR, GNSS, IMU, communications, compute, safety hardware, enclosure, cabling and mounting.
+Moxa EDS-205A is currently listed at ₹11,136, the ABB SSR10 safety relay at ₹19,389, the Eaton IP67 emergency stop at ₹5,189, and the RS PRO 24 V LED beacon at ₹4,879.
 
-## Real-World Implementation Cost
+The PULS UB20.241 industrial 24 V UPS is listed at ₹49,872.42, and the G-energy 24 V-to-12 V industrial converter is ₹499 before GST.
 
-> **Estimated field implementation: approximately ₹12–15 lakh per mining vehicle**
-
-The estimate can become substantially higher if a higher-end thermal camera, additional radar units, certified safety hardware, multiple 3D LiDAR units or mine-specific qualification is required.
+The selected RS PRO IP67 enclosure is ₹11,982.64 incl. GST, and an RS PRO IP67 M12 connector/cable benchmark is ₹1,691.47 per unit incl. GST.
 
 ---
 
-# 3. Cost Comparison
+# 3. Items That Require Vendor Quotation
 
-| Deployment Stage                   |          Approximate Cost |
-| ---------------------------------- | ------------------------: |
-| **College/SIH Prototype**          |       **₹25,000–₹30,000** |
-| **Real-World Mine Implementation** | **₹12–15 lakh / vehicle** |
+The following should **not** be assigned an invented “exact market price” because the final cost depends on vehicle model, mounting requirements, environmental rating and integration scope:
 
-### Main hardware transition
+| Item                                              | Cost Basis       |
+| ------------------------------------------------- | ---------------- |
+| Complete rugged 77–81 GHz mining radar assembly   | Vendor quotation |
+| Industrial vehicle-grade IMU                      | Vendor quotation |
+| Rugged driver display                             | Vendor quotation |
+| Industrial 4G/5G router                           | Vendor quotation |
+| CAN/J1939 vehicle interface                       | Vendor quotation |
+| Sensor protection / air-purge system              | Vendor quotation |
+| Vehicle-specific mounting and vibration isolation | Vendor quotation |
+| Vehicle installation and calibration              | Vendor quotation |
+| Mine-site testing and validation                  | Vendor quotation |
+| Safety certification / compliance                 | Vendor quotation |
 
-| College Prototype             | Real Mine Implementation             |
-| ----------------------------- | ------------------------------------ |
-| 4 m ultrasonic sonar          | 77–81 GHz industrial radar           |
-| Hobby/student LiDAR           | Industrial LiDAR                     |
-| Prototype thermal sensor      | Industrial thermal camera            |
-| Development-board electronics | Rugged/industrial electronics        |
-| Basic enclosure               | IP65/IP67 rugged enclosure           |
-| Simple wiring                 | Sealed industrial wiring harness     |
-| Student mounting              | Vibration-resistant vehicle mounting |
-| Existing laptop/PC            | Dedicated edge-computing unit        |
-| Basic power supply            | Protected vehicle power system       |
-| Demonstration safety alarm    | Engineered safety hardware           |
-| Controlled testing            | Mine-field validation                |
+This distinction matters. A **₹2,500 radar chip is not a ₹2,500 mining radar system**. The chip needs antenna, RF design, processing, enclosure, power, connectors, software and vehicle integration. Pretending otherwise is precisely how cost reports become PowerPoint fiction.
 
 ---
 
-# 4. Why the Two Costs Are Very Different
+# 4. Correct Real-World Cost Position
 
-The college prototype is designed to **prove the concept at low cost**.
+The publicly priced hardware benchmark is approximately:
 
-The real mining implementation is designed to **operate on an actual mining vehicle**, where longer detection range, harsh environmental conditions, vibration, dust, water ingress, electrical transients, sensor contamination and safety-system reliability become important.
+> **₹4.5–₹5.0 lakh per vehicle before vehicle-specific integration**
 
-Therefore, the cost increase is mainly caused by:
+After adding industrial integration, ruggedization, calibration, mounting, testing, spare hardware and quotation-based components:
 
-* industrial radar replacing short-range sonar;
-* industrial thermal imaging;
-* rugged LiDAR;
-* vehicle-grade compute;
-* industrial networking;
-* protected power electronics;
-* IP-rated enclosure;
-* industrial connectors and wiring;
-* vibration-resistant mounting;
-* safety hardware;
-* calibration and vehicle integration;
-* spare hardware.
+> **Planning range: approximately ₹6–₹10 lakh per vehicle**
+
+A higher-end configuration using premium thermal imaging, higher-grade LiDAR, multiple radars, certified safety equipment or additional redundancy can exceed this range.
+
+Therefore, the earlier **₹12–15 lakh/vehicle** figure should be presented only as a **higher-end deployment scenario**, not as the single exact market price.
 
 ---
 
-# 5. Important Position of Sonar
+# 5. Cost Comparison
 
-### Prototype
-
-The sonar is retained because it provides an inexpensive way to demonstrate the distance-sensing and sensor-fusion concept.
-
-### Real Mine
-
-The sonar should **not be treated as the main vehicle-ranging sensor**.
-
-The real implementation uses:
-
-> **Radar as the primary long-range ranging sensor**
-
-with:
-
-> **Thermal + RGB + LiDAR + GNSS + IMU**
-
-providing complementary information.
-
-This is consistent with the project's hardware study, which identifies ultrasonic sensing as a close-range option and keeps radar as the stronger primary ranging approach.
+| Deployment Stage                                  |       Current Planning Cost |
+| ------------------------------------------------- | --------------------------: |
+| **VISTAX College/SIH Prototype**                  |         **₹23,000–₹25,000** |
+| **Real-World Engineering Configuration**          |   **₹6–₹10 lakh / vehicle** |
+| **Higher-End / Heavily Ruggedized Configuration** | **₹10–₹15+ lakh / vehicle** |
 
 ---
 
-# 6. Scope of the Estimates
+# 6. Main Prototype-to-Production Transition
 
-## College Prototype Cost
-
-The ₹25,000–₹30,000 estimate represents a **student/SIH proof-of-concept hardware build**.
-
-It assumes:
-
-* low-cost development boards;
-* short-range sonar;
-* prototype LiDAR;
-* prototype thermal sensing;
-* existing computing hardware;
-* fabricated/3D-printed enclosure and mounts;
-* basic wiring and power system.
-
-## Real-World Cost
-
-The ₹12–15 lakh estimate represents an **engineering-level field implementation**, not a certified production system.
-
-Additional costs may arise from:
-
-* OEM vehicle integration;
-* mine-specific testing;
-* certification/approval;
-* environmental qualification;
-* safety validation;
-* fleet deployment;
-* maintenance;
-* production tooling;
-* site-specific communications;
-* additional redundant sensors.
+| College / SIH Prototype   | Real-World Mine Deployment           |
+| ------------------------- | ------------------------------------ |
+| HC-SR04 ultrasonic sensor | 76–81 GHz radar / industrial ranging |
+| Low-cost LiDAR            | Industrial 3D LiDAR                  |
+| MLX90640 thermal array    | Industrial thermal imaging           |
+| ESP8266 / Arduino         | Vehicle-grade embedded controllers   |
+| Consumer/prototype camera | Rugged IP-rated camera               |
+| Basic GPS                 | RTK GNSS                             |
+| MPU-6050                  | Industrial IMU                       |
+| Basic wiring              | Sealed industrial cabling            |
+| Prototype enclosure       | IP-rated rugged enclosure            |
+| Existing PC/laptop        | Dedicated edge AI computer           |
+| Student mounts            | Vibration-resistant vehicle mounts   |
+| Prototype power supply    | Protected vehicle power system       |
+| Demonstration alarm       | Engineered safety hardware           |
 
 ---
 
-# 7. Recommended Financial Statement
+# 7. Why the Cost Increases
 
-> **VISTAX College Prototype: ~₹25,000–₹30,000**
+The difference is primarily driven by:
 
-> **VISTAX Real-World Mine Implementation: ~₹12–15 lakh per vehicle**
+**Range:** Short-range prototype sensing must be replaced by longer-range vehicle sensing.
 
-### One-line presentation version
+**Ruggedization:** Mining environments introduce dust, rain, vibration, temperature variation and mechanical stress.
 
-> **Low-cost college prototype: ~₹0.25–0.30 lakh | Industrial mine implementation: ~₹12–15 lakh/vehicle**
+**Reliability:** Production systems need protected power, industrial connectors, enclosure protection and redundant sensing.
 
----
+**Processing:** Real-time multi-sensor fusion and AI inference require dedicated edge computing.
 
-# 8. Source References
+**Vehicle Integration:** CAN/J1939 interfaces, mounting, calibration, networking and installation add engineering cost.
 
-### VISTAX Project Website
-
-https://bug-busters-hazel.vercel.app/
-
-The website lists the prototype hardware architecture including ESP8266, Arduino, camera, sonar, LiDAR, thermal, GPS/DGPS, IMU, radar and communication hardware.
-
-### VISTA Hardware-Finance Study
-
-Project hardware-finance document containing the detailed component-selection study, planning ranges and costed prototype BOM.
-
-### Engineering Cost Basis
-
-All prices in this document are **estimation/benchmark values**, not final purchase quotations.
-
-Before commercial implementation, vendor quotations and vehicle/OEM integration costs must replace the planning estimates.
+**Safety:** Production deployment requires engineered safety hardware and site-specific validation.
 
 ---
 
-# 9. Final Estimated Cost
+# 8. Financial Statement for Presentation
 
-| System                                    |      Total Estimated Cost |
-| ----------------------------------------- | ------------------------: |
-| **VISTAX Our Prototype**              |       **₹25,000–₹30,000** |
-| **VISTAX Real-World Mine Implementation** | **₹12–15 lakh / vehicle** |
+> **VISTAX Prototype:** ~₹23K–₹25K
+> **Real-World Deployment:** ~₹6–₹10 lakh/vehicle
+> **Higher-End Configuration:** ~₹10–₹15+ lakh/vehicle
 
-**The prototype demonstrates the concept.
-The real-world version replaces short-range demonstration hardware with industrial sensing and vehicle-grade infrastructure.**
+**The prototype validates the sensing and AI concept using affordable development hardware. The production system upgrades the same architecture with industrial sensing, edge computing, ruggedized hardware, vehicle integration and safety infrastructure.**
+
+---
+
+# 9. Pricing Methodology
+
+**Market-price basis:** Public India listings checked in September 2026.
+
+**Included:** Current listed product prices for identifiable hardware.
+
+**Excluded from “exact product price”:** Vendor-specific integration, certification, mine-site installation, calibration and custom engineering.
+
+**Important:** Online electronics prices can change with stock, discounts, tax treatment, import costs and quantity. The figures should therefore be treated as **current market benchmarks**, while procurement should use final vendor quotations.
+
+---
+
+# 10. Key Product References
+
+**Electronics / Prototype Components:** ElectronicsComp, Robu, Robocraze and other India electronics suppliers.
+
+**Thermal Imaging:** ThinkRobotics / FLIR / DigiKey listings.
+
+**LiDAR:** Livox / Indian robotics suppliers.
+
+**RTK GNSS:** AeroAtoms / GenX India listings.
+
+**Edge AI:** Seeed reComputer / NVIDIA Jetson Orin NX India listings.
+
+**Industrial Networking & Safety:** Moxa, ABB, Eaton and RS India listings.
+
+**Radar:** Texas Instruments IWR1843 76–81 GHz industrial radar sensor and associated evaluation hardware.
