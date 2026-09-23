@@ -1,58 +1,33 @@
-# VISTAX — Hardware Cost Estimation Report
+# VISTAX — SIH Prototype Hardware Cost
 
 **Project:** VISTAX — Mine Vehicle Safety for Fog and Low Visibility
 **SIH Problem Statement:** 26007
-**Market Price Check:** September 2026
-**Currency:** Indian Rupees (INR)
+**Market Price Reference:** September 2026
+**Currency:** INR
 
----
+| Hardware                           |  Qty. | Current Benchmark |          Cost |
+| ---------------------------------- | ----: | ----------------: | ------------: |
+| **ESP32 38-Pin Development Board** |     1 |              ₹439 |          ₹439 |
+| Arduino Uno R3 Compatible          |     1 |              ₹299 |          ₹299 |
+| ESP32-CAM / OV2640                 |     1 |              ₹635 |          ₹635 |
+| HC-SR04 Ultrasonic Sensor          |     1 |               ₹69 |           ₹69 |
+| VL53L1X ToF LiDAR Sensor           |     1 |              ₹865 |          ₹865 |
+| MLX90640 Thermal Camera            |     1 |            ₹4,711 |        ₹4,711 |
+| NEO-6M GPS Module                  |     1 |              ₹266 |          ₹266 |
+| MPU-6050 IMU                       |     1 |              ₹154 |          ₹154 |
+| HC-05 Bluetooth Module             |     1 |              ₹215 |          ₹215 |
+| OLED Display                       |     1 |             ~₹200 |         ~₹200 |
+| Buzzer + Warning LED               | 1 set |             ~₹100 |         ~₹100 |
+| DC-DC Buck Converter               |     1 |             ~₹110 |         ~₹110 |
+| Breadboard + Jumper Wires          | 1 set |             ~₹250 |         ~₹250 |
+| 12 V Power Supply / Battery        |     1 |             ~₹500 |         ~₹500 |
+| Mounting, Connectors & Misc.       | 1 set |             ~₹750 |         ~₹750 |
+| **Estimated Prototype Total**      |       |                   | **≈ ₹10,560** |
 
-# 1. Our College / SIH Prototype Cost
+**Practical prototype budget:** **₹10,000–₹12,000**
 
-The prototype uses low-cost development hardware to demonstrate sensing, sensor fusion, object detection, tracking and dashboard visualization. The prices below are based on currently listed India-market products rather than assumed component rates.
+The listed ESP32, HC-SR04, VL53L1X, GPS, IMU, Bluetooth and MLX90640 prices are based on current India listings.
 
-| Hardware                             | Product / Benchmark                     | Qty. | Current Listed Rate |        Cost |
-| ------------------------------------ | --------------------------------------- | ---: | ------------------: | ----------: |
-| ESP8266                              | NodeMCU ESP8266 Wi-Fi Development Board |    1 |                ₹199 |        ₹199 |
-| Sonar                                | HC-SR04 Ultrasonic Sensor, 2–400 cm     |    1 |                 ₹69 |         ₹69 |
-| LiDAR                                | YDLIDAR X4 Pro                          |    1 |              ₹6,986 |      ₹6,986 |
-| Thermal Sensor                       | MLX90640 32×24 Thermal Camera           |    1 |              ₹7,250 |      ₹7,250 |
-| GPS                                  | u-blox NEO-6M GPS Module                |    1 |                ₹249 |        ₹249 |
-| IMU                                  | MPU-6050 Accelerometer + Gyroscope      |    1 |                ₹154 |        ₹154 |
-| Wireless Communication               | HC-05 Bluetooth Module                  |    1 |                ₹215 |        ₹215 |
-| Display                              | 0.96-inch OLED Module                   |    1 |                ₹209 |        ₹209 |
-| Power Regulation                     | LM2596 Buck Converter with Display      |    1 |                ₹110 |        ₹110 |
-| Warning                              | Active Buzzer Module                    |    1 |                 ₹27 |         ₹27 |
-| Prototype Wiring                     | Breadboard + Jumper Wire Combo          |    1 |                ₹279 |        ₹279 |
-| Power Supply                         | 12 V, 2 A Adapter                       |    1 |                ₹259 |        ₹259 |
-| Enclosure                            | IP67 Polycarbonate Enclosure            |    1 |              ₹3,893 |      ₹3,893 |
-| **Current Priced Hardware Subtotal** |                                         |      |                     | **₹20,753** |
-
-The ESP8266 price is listed at ₹199.42 incl. taxes by ElectronicsComp; an Arduino Uno R3 compatible board is listed at ₹219 by Robu; ESP32-CAM is listed at ₹635 by Robocraze; HC-SR04 is ₹69 incl. GST; NEO-6M is around ₹239–₹269 across Indian suppliers; and MPU-6050 is ₹154 incl. GST.
-
-The YDLIDAR X4 Pro is currently listed around ₹6,986, while the MLX90640 thermal camera is listed around ₹7,250 in India.
-
-The HC-05 wireless module is listed at ₹215, the LM2596 module with display at ₹110, the active buzzer at ₹27, and the breadboard/jumper combination at ₹279.
-
-The 12 V, 2 A adapter is currently listed at ₹259 and the selected IP67 polycarbonate enclosure at ₹3,893 incl. GST.
-
-### Prototype Cost
-
-> **Current priced hardware subtotal: approximately ₹20,750**
-
-For soldering, PCB/perfboard, additional connectors, mounting brackets, fabrication and miscellaneous consumables, use a separate **₹2,000–₹4,000 prototype allowance** rather than pretending those items have one universal market price.
-
-> **Estimated complete college/SIH prototype: approximately ₹23,000–₹25,000**
-
-### Prototype Sonar Limitation
-
-The HC-SR04 provides a **2–400 cm** sensing range and is suitable for proof-of-concept short-range distance measurement. It should not be presented as the primary ranging sensor for a full-scale mining haul vehicle.
-
-**Prototype role:** Short-range proof-of-concept distance sensing.
-
-**Real-world role:** Replaced by an appropriate industrial/vehicle-grade ranging system.
-
----
 
 # 2. Real-World Mine Vehicle Implementation
 
