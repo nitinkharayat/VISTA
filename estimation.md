@@ -8,7 +8,6 @@
 | Hardware                           |  Qty. | Current Benchmark |          Cost |
 | ---------------------------------- | ----: | ----------------: | ------------: |
 | **ESP32 38-Pin Development Board** |     1 |              ₹439 |          ₹439 |
-| Arduino Uno R3 Compatible          |     1 |              ₹299 |          ₹299 |
 | ESP32-CAM / OV2640                 |     1 |              ₹635 |          ₹635 |
 | HC-SR04 Ultrasonic Sensor          |     1 |               ₹69 |           ₹69 |
 | VL53L1X ToF LiDAR Sensor           |     1 |              ₹865 |          ₹865 |
@@ -22,7 +21,7 @@
 | Breadboard + Jumper Wires          | 1 set |             ~₹250 |         ~₹250 |
 | 12 V Power Supply / Battery        |     1 |             ~₹500 |         ~₹500 |
 | Mounting, Connectors & Misc.       | 1 set |             ~₹750 |         ~₹750 |
-| **Estimated Prototype Total**      |       |                   | **≈ ₹10,560** |
+| **Estimated Prototype Total**      |       |                   | **≈ ₹10,259** |
 
 **Practical prototype budget:** **₹10,000–₹12,000**
 
